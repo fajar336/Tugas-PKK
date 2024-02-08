@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-position: flex; */
+}
+.border {
+    display: flex;
+    justify-content: center;
+}
+
+.border-login {
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+}

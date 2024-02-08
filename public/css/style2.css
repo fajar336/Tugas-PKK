@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    display: flex;
+    }
+
+.sidebar {
+    border-right: aqua 2px solid;
+    width: 60px;
+    height: 100vh;
+    display: flex;
+    background-color: #303841;
+    flex-shrink: 0;
+    position: fixed;
+}
+
+.home {
+    color: var(--icon, #f3f3f3);
+    font-family: lemon;
+    font-size: xx-large;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    position: absolute;
+    width: 33px;
+    height: 42px;
+    top: 10px;
+    left: 13px;
+    border-bottom: 2px solid #00d1bd;
+}
+
+.glass {
+    width: 30px;
+    height: 29.98px;
+    top: 74.94px;
+    left: 15px;
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+}
+
+.bars {
+    width: 30px;
+    height: 29.98px;
+    top: 123.91px;
+    left: 15px;
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
+    color: #00d1bd;
+    cursor: pointer;
+}
+
+.content {
+color: #ffffff;
+padding: 20px;
+width: 1366px;
+top: -801px;    
+left: -1678px;
+margin-left: 90px;
+}
+
+/* .sidebar h1 {
+    color: white;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+} */
+
+
+
+.SCButton{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border-style: solid;
+    border-color: blue;
+    cursor: pointer;
+}
+
+.table-content{
+    margin-top: 100px;
+}
+
+.p {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    border-style: solid;
+    border-color: blue;
+    color: white;
+}
+
+table {
+    box-shadow: 10px;
+}
+
+.unit {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border-style: solid;
+    border-color: blue;
+    cursor: pointer;
+}
+.fa {
+    width: 0;
+    height: 0;
+    font-size: large;
+    color: white;
+}
+
+.logout {
+    width: 30px;
+    cursor: pointer;
+    height: 29.98px;
+    top: 88%;
+    left: 15px;
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
+    color: #00D1BD;   
+}
